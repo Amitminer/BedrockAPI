@@ -1,1 +1,9 @@
-
+---
+name: BedrockAPI
+version: 1.0.0
+main: BedrockAPI\BedrockAPI
+api: 5.0.0
+author: AmitxD
+description: for lazzy persons!
+website: https://github.com/Amitminer
+...
