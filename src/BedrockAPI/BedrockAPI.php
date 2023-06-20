@@ -8,6 +8,7 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\plugin\PluginBase;
 use BedrockAPI\Blocks\BlockAPI;
+use BedrockAPI\Items\ItemsAPI;
 
 class BedrockAPI extends PluginBase{
     
@@ -27,6 +28,9 @@ class BedrockAPI extends PluginBase{
 	}
 	public static function BlockAPI(): BlockAPI {
         return new BlockAPI();
+    }
+    public static function ItemsAPI(): ItemsAPI {
+        return new ItemsAPI();
     }
 	// For Internal Use Only!
     public static function getInstance(): self
